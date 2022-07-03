@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mochiy+Pop+One&family=Montserrat:wght@400;600;700&family=Moon+Dance&family=Open+Sans:wght@300&family=PT+Serif&family=Poppins:ital,wght@0,100;1,400&family=Raleway:wght@500;700&family=Roboto:ital,wght@0,700;1,300&display=swap');
-
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -124,27 +121,29 @@ body {
 .sub-card {
     width: 90%;
     margin: auto;
-
+    border: 1px solid red;
 }
 
 .sub-card-content {
     display: flex;
     justify-content: space-between;
-
+    gap: 40px;
 }
 
 /* content left start here ....... */
-/* .content-left {} */
+.content-left {
+    border: 1px solid black;
+}
 
 .content-left-one {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 50px;
 }
 
 .profile-img {
     width: 160px;
-    height: 196px;
+    height: 185px;
     border-radius: 5px;
 }
 
@@ -169,18 +168,6 @@ body {
 /* content right start here ....... */
 
 .content-right {
+    border: 1px solid blue;
     text-align: center;
-}
-
-.sign-img {
-    margin: 38px 0px;
-    width: 100px;
-}
-
-.content-btn {
-    padding: 10px 50px;
-    background-color: #00a1f8;
-    color: white;
-    border: 0px;
-    border-radius: 5px;
 }
